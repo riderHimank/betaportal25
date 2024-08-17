@@ -2,7 +2,7 @@ import React from 'react'
 import "./comp.css"
 import Image from 'next/image'
 
-export default function FeaturedCompetitions() {
+export default function Home() {
   return (
     <div>
         <section className='featured_events_section'>
