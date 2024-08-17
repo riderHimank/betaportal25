@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 
+@font-face {
+  font-family: 'Thunder';
+  src: url('/Thunder-BlackLC.ttf')format('ttf');
+}
+
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -32,6 +37,11 @@ body {
     text-wrap: balance;
   }
 } */
+
+.initiative_font{
+  font-family: 'thunder';
+  font-weight: 800;
+}
 
 .splide__slide.is-active div div{
   opacity: 100%;
