@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'thunFont';
+    src: url('/Thunder-BlackLC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.topSection{
+    height: 57.56vw;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: #F8F1DE;
+    border-radius: 5vw;
+}
+
+.check_txt{
+    height: 5.34vw;
+    width: 100vw;
+    color: #201E1D;
+    padding-bottom: 1vw;
+}
+
+.img_box{
+    height: 32.5vw;
+    width: 93.05vw;
+    border-radius: 1vw;
+}
+
+.name_box{
+    height: 8vw;
+    border-radius: 0 0 2vw 2vw;
+    background: #F8F1DE;
+}
+
+.name_box>p{
+    font-family: "thunFont";
+    padding: 0vw 3.5vw;
+    font-size: 8.89vw;
+    font-weight: 900;
+    letter-spacing: 2%;
+    color: #201E1D;
+}
+
+.overview_txt{
+    height: 19.72vw;
+    width: 93.05vw;
+    color: #201E1D;
+}
+
+.txt1{
+    font-size: 1.67vw;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    color: #201E1D;
+}
+
+.box_1{
+    height: 100%;
+    width: 30vw;
+}
+
+.box_1>p{
+    font-weight: 800;
+    font-size: 4.45vw;
+    font-family: "thunFont";
+    color: #201E1D;
+}
+
+.box_2{
+    height: 100%;
+    width: 60vw;
+}
+
+.box_2>p{
+    font-weight: 400;
+    font-size: 1.39vw;
+    font-family: "DM Sans", sans-serif;
+    color: #201E1D;
+}
