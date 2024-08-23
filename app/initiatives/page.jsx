@@ -20,7 +20,7 @@ const topSection = ({ title = "INITIATIVES", txt = "Lorem ipsum dolor sit amet c
           </div>
           <Image
             src={backImg}
-            layout='responsive'
+            className='w-full'
           />
         </div>
         <div className="overview_txt flex flex-row justify-center">

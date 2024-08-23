@@ -8,7 +8,7 @@ export default function FeaturedCompetitions({ title }) {
             <div className='header_events'>
                 <h2>{title}</h2>
             </div>
-            <div className='grid_container'>
+            <div className='grid_container thunder-subhead'>
                 <div className='item1'>
                     <span>Pronites</span>
                     <img className='img_grid'

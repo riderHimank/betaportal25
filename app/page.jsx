@@ -15,11 +15,11 @@ export default function Home() {
     return () => setValue(1);
   }, []);
   return (
-    <main className="min-h-screen bg-black">
+    <main className="min-h-screen bg1">
       <section className="web bg-[#F8F1DE] p-8 rounded-[1.75rem] flex items-center flex-col">
         <div className="flex w-full justify-center items-center gap-x-5">
           <h1 className="m-2 thunder-head text-[8.5vw] leading-tight">EXPERIENCE THE</h1>
-          <div className="bg-black px-10 ml-4 rounded-[4rem] text-[#F8F1DE] flex items-center gap-4">
+          <div className="bg1 px-10 ml-4 rounded-[4rem] text-[#F8F1DE] flex items-center gap-4">
             <p className="thunder-head text-center text-[6vw] leading-tight flex items-center"> EDITION </p>
             <SlotCounter startValue={0}
               value={value}
@@ -31,12 +31,12 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="relative mt-8 flex justify-center h-[85vh]">
+        <div className="relative flex justify-center h-[85vh]">
           <Image src={hero} alt="Loading.." className="rounded-3xl " />
           <p className="bg-[#F8F1DE] rounded-bl-2xl absolute top-0 right-0 py-2 px-6 flex justify-start items-center thunder-head text-[8.5vw] leading-tight">EXTRAORDINARY.</p>
         </div>
         <div className="flex justify-evenly items-center px-12 mt-6 gap-4 min-h-56">
-          <h3 className="text-[3vw] thunder-subhead ">About <br />Alcheringa</h3>
+          <h3 className="text-[3rem] thunder-subhead">About <br />Alcheringa</h3>
           <p className="text-md text-justify w-[50%] font-dm-sans">Alcheringa is the annual cultural festival of the Indian Institute of Technology (IIT), Guwahati. Started in 1996 by a group of students, Alcheringa, IIT Guwahati has become one of Asia’s most significant college-level cultural events. Spread over three days and four nights, Alcheringa attracts people from all over the world with its spectacular events and competitions.
           </p>
         </div>
@@ -47,7 +47,7 @@ export default function Home() {
         <div className="relative flex justify-center h-[50vh]">
           <Image src={hero} alt="Loading.." className="rounded-3xl " />
           <div className="absolute bg-[#F8F1DE] py-3 rounded-bl-2xl right-0">
-            <div className="bg-black px-10 py-3 ml-4 rounded-[30px] text-[#F8F1DE] flex items-center gap-4">
+            <div className="bg1 px-10 py-3 ml-4 rounded-[30px] text-[#F8F1DE] flex items-center gap-4">
               <p className="thunder-head text-center text-[8vw] leading-tight flex items-center"> EDITION </p>
               <SlotCounter startValue={0}
                 value={value}

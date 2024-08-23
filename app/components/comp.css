@@ -1,6 +1,6 @@
 @font-face {
   font-family: "thunFont";
-  src: url("/Thunder-BlackLC.ttf") format("truetype");
+  src: url("/Thunder-ExtraBoldLC.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -67,15 +67,27 @@
   color: white;
   top: 90%;
   left: 50%;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 1.5vw;
+  font-family: "thunFont", "Arial Narrow", Arial, sans-serif;
+  font-size: 2.5vw;
+  font-weight: 400;
   width: 100%;
   padding-left: 35%;
   transform: translate(-50%, -50%);
 }
-
+.spann{
+  position: absolute;
+  color: white;
+  top: 90%;
+  left: 60%;
+  font-family: "thunFont", "Arial Narrow", Arial, sans-serif;
+  font-size: 2.5vw;
+  font-weight: 400;
+  width: 100%;
+  padding-left: 35%;
+  transform: translate(-50%, -50%);
+}
 .span_cr {
-  padding-left: 12%;
+  padding-left: 21% !important;
 }
 
 .grid_container {

@@ -14,10 +14,10 @@ const images = [
 const Carasouel = () => {
 
     return (
-        <div className="w-full h-screen bg-[#201E1D]">
-            <div className="w-[99%] mx-auto h-screen bg-[#F8F1DE] rounded-2xl pt-10">
+        <div className="w-full bg-[#201E1D] mb-2">
+            <div className="w-[99%] mx-auto bg-[#F8F1DE] rounded-2xl pt-10 mb-2">
                 <div className="w-6/12 mx-auto">
-                    <h1 className="text-[4vmax] text-center font-[thunFont] ">Kartavya</h1>
+                    <h1 className="text-[3rem] text-center font-[thunFont] ">Kartavya</h1>
                     <p className="text-center mt-4 font-dm-sans font-medium">
                         All our campaigns come under the roof of our “Kartavya”.
                     </p>
@@ -48,7 +48,7 @@ const Carasouel = () => {
                                         <img
                                             src={image.src}
                                             alt=""
-                                            className="pt-1 tablet:h-[40vh] small_mobile:h-[20vh] small_mobile:w-[94%] mobile:h-[35vh] small_tablet:h-[30vh] tablet:w-[98%] mx-auto border-2 border-white border-dashed rounded-[30px]"
+                                            className="pt-1 tablet:h-[40vh] small_mobile:h-[9rem] small_mobile:w-[94%] mobile:h-[11rem] small_tablet:h-[11rem] tablet:w-[98%] mx-auto border-2 border-white border-dashed rounded-[30px]"
                                             style={{ borderRadius: "30px" }}
                                         />
                                         <div>

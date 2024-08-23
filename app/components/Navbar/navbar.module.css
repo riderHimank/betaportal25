@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000000;
+}
+
+.right {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+}
+
+.textcolor1 {
+    color: #F8F1DE;
+}
+
+.under {
+    padding-bottom: 0.5px;
+    border-bottom: #F8F1DE 1px solid;
+}
+
+.bg1 {
+    background-color: rgba(36, 34, 33, 1);
+}
+
+.navlinks {
+    display: flex;
+    gap: 2rem;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 0.3rem;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: #F8F1DE;
+}
+.noscroll {
+    overflow-y: hidden;
+}
+/* Mobile menu styling */
+.mobileMenu {
+    display: none;
+    flex-direction: column;
+    position: fixed; /* Fixed positioning for better 
+    visibility */
+    align-items: center;
+    font-size: 1rem;
+    top: 60px;
+    left: 0;
+    right: 0;
+    width: 100%; /* Full width */
+    background-color: rgba(36, 34, 33, 1);
+    padding: 1rem;
+    z-index: 100; /* Ensure the menu appears above other content */
+}
+
+.active {
+    display: flex;
+}
+.activeDropdown{
+    position :relative;
+}
+.dropdownMenu{
+    top: 2.5rem;
+    width: 12rem;
+    padding: 0.5rem;
+    background-color: rgba(36, 34, 33, 1);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+@media screen and (max-width: 1020px) {
+    .heading {
+        font-size: 1.3rem;
+    }
+
+    .right {
+        font-size: 0.9rem;
+    }
+
+    .navlinks {
+        gap: 1.5rem;
+    }
+}
+/* @media screen and (max-width: 900px){
+    .right{
+        font-size: 0.9rem;
+    }
+    .navlinks{
+        display: flex;
+        gap:1rem;
+    }
+} */
+@media screen and (max-width: 980px) {
+    
+    .right {
+        font-size: 0.9rem;
+    }
+
+    .navlinks {
+        display: none !important;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+    .navlink{
+        margin:1rem auto;
+        font-size: 1.5rem;
+    }
+    .logo{
+        width: 2rem;
+    }
+}

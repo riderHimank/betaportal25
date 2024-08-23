@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.bg{
+    background-color: rgba(36, 34, 33, 1);
+}
+.footer{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+}
+.textcolor1{
+    color: #F8F1DE; 
+}
+.logo{
+    padding-top:4rem;
+    width: auto;
+}
+@media screen and (max-width: 990px) {
+    .contacts{
+        flex-direction: column;
+    }
+    .email{
+        font-size:1.2rem;
+    }
+    .sharelogo{
+        width: 2rem;
+        height: 2rem !important;
+    }
+}
+@media screen and (max-width: 700px) {
+    .social{
+        flex-direction: column !important;
+        align-items: end !important;
+
+    }
+    .sharelogo{
+        width: 3rem !important;
+        height: 3rem !important;
+        margin-top: 1rem !important;
+        padding: 0 !important;
+    }
+    .container1{
+        padding-left: 0rem !important;
+        padding-right: 0rem  !important;
+        scale: 0.8 !important;
+    }
+    .footer{
+        padding: 1rem !important;
+    }
+}
+@media screen and (max-width: 480px) {
+    .right{
+        margin-top: 2rem !important;
+    }
+    .container1{
+        flex-direction: column !important;
+        justify-content: left !important;
+    }
+    .email{
+        font-size: 1.2rem !important;
+        text-align: left !important;
+    }
+    .social{
+        flex-direction: row !important;
+        justify-content: normal !important;
+    }
+    .logo{
+        padding: 2rem 1rem !important;
+        height: auto !important;
+    }
+    .sharelogo{
+        margin: 0 !important;
+        width: 2rem !important;
+        height: 2rem !important;
+    }
+}
