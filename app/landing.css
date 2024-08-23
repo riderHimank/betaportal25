@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "thunFont";
+  src: url("/Thunder-BlackLC.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.thunder-head {
+  font-family: "thunFont";
+  letter-spacing: 0.3vw;
+  margin: 0px;
+}
+
+.thunder-subhead {
+  font-family: "thunFont";
+  letter-spacing: 0.1vw;
+  margin: 0px;
+}

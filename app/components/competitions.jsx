@@ -2,12 +2,11 @@ import React from 'react'
 import "./comp.css"
 import Image from 'next/image'
 
-export default function Home() {
-  return (
-    <div>
-        <section className='featured_events_section'>
+export default function FeaturedCompetitions({ title }) {
+    return (
+        <section className='featured_events_section rounded-3xl mb-[2.5vh]'>
             <div className='header_events'>
-                <h2>Featured Events</h2>
+                <h2>{title}</h2>
             </div>
             <div className='grid_container'>
                 <div className='item1'>
@@ -38,10 +37,9 @@ export default function Home() {
                     <span>Informals</span>
                     <img className='img_grid'
                         src="/image5.png"
-                        />
+                    />
                 </div>
             </div>
         </section>
-    </div>
-  )
+    )
 }

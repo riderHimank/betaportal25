@@ -1,47 +1,57 @@
-import React from 'react'
-import "./comp.css"
-import Image from 'next/image'
+import React from 'react';
+import "./topSection.css";
+import Image from 'next/image';
+import backImg from "./background_img.jpeg";
+import Image4 from "../../public/Image4.png"
+import FeaturedCompetitions from '../components/competitions';
+import { ModulesCard } from '../components/eventsCard';
 
-export default function FeaturedCompetitions() {
+const topSection = ({ title = "COMPETITIONS", txt = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, commodi. Eum odio architecto, qui est delectus, quibusdam aspernatur exercitationem ratione et placeat sequi. Adipisci quae natus quas saepe, reprehenderit, vero voluptatibus, aspernatur voluptates a reiciendis laudantium ipsam nisi! Sint, saepe." }) => {
+
   return (
-    <div>
-        <section className='featured_events_section'>
-            <div className='header_events'>
-                <h2>Featured Events</h2>
-            </div>
-            <div className='grid_container'>
-                <div className='item1'>
-                    <span>Pronites</span>
-                    <img className='img_grid'
-                        src="/image1.png"
-                    />
-                </div>
-                <div className='item2'>
-                    <span>Footfall</span>
-                    <img className='img_grid'
-                        src="/image2.png"
-                    />
-                </div>
-                <div className='item3'>
-                    <span>Creator's Camp</span>
-                    <img className='img_grid'
-                        src="/image3.png"
-                    />
-                </div>
-                <div className='item4'>
-                    <span className='span_cr'>Critical Damage</span>
-                    <img className='img_grid'
-                        src="/image4.png"
-                    />
-                </div>
-                <div className='item5'>
-                    <span>Informals</span>
-                    <img className='img_grid'
-                        src="/image5.png"
-                        />
-                </div>
-            </div>
-        </section>
-    </div>
-  )
+    <>
+      <div className="topSection flex flex-col items-center justify-center rounded-3xl mb-6">
+        <div className="check_txt flex items-end justify-center">
+          <p className='txt1'>Check Out Our</p>
+        </div>
+        <div className="img_box flex justify-center overflow-hidden">
+          <div className="name_box absolute flex justify-center items-center">
+            <p>{title}</p>
+          </div>
+          <Image
+            src={backImg}
+            layout='responsive'
+          />
+        </div>
+        <div className="overview_txt flex flex-row justify-center">
+          <div className="box_1 flex justify-center items-center">
+            <p>Overview</p>
+          </div>
+          <div className="box_2 flex items-center">
+            <p>{txt}</p>
+          </div>
+        </div>
+      </div>
+      <FeaturedCompetitions title={"Featured Competitions"} />
+      <section className='featured_events_section rounded-3xl mt-[2.5vh]'>
+        <div className='header_events'>
+          <h2>Modules</h2>
+        </div>
+        <div className='flex flex-wrap p-2 gap-[10px] small_tablet:gap-5 items-center justify-center'>
+          <ModulesCard title={"Pronites"} url={Image4} />
+          <ModulesCard title={"Pronites"} url={Image4} />
+          <ModulesCard title={"Pronites"} url={Image4} />
+          <ModulesCard title={"Pronites"} url={Image4} />
+          <ModulesCard title={"Pronites"} url={Image4} />
+          <ModulesCard title={"Pronites"} url={Image4} />
+          <ModulesCard title={"Pronites"} url={Image4} />
+          <ModulesCard title={"Pronites"} url={Image4} />
+          <ModulesCard title={"Pronites"} url={Image4} />
+          <ModulesCard title={"Pronites"} url={Image4} />
+        </div>
+      </section>
+    </>
+  );
 }
+
+export default topSection;

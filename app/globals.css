@@ -2,10 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-
+body {
+  background-color: #201e1d;
+}
 @font-face {
-  font-family: 'Thunder';
-  src: url('/Thunder-BlackLC.ttf')format('ttf');
+  font-family: "thunFont";
+  src: url("/Thunder-BlackLC.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* :root {
@@ -38,80 +42,80 @@ body {
   }
 } */
 
-.initiative_font{
-  font-family: 'thunder';
-  font-weight: 800;
-}
-
-.splide__slide.is-active div div{
+.splide__slide.is-active div div {
   opacity: 100%;
 }
 
-
-.splide__slide div div{
+.splide__slide div div {
   opacity: 0%;
   transition: all 0.3s ease;
 }
 
-.splide__slide.is-active div{
+.splide__slide.is-active div {
   height: fit-content;
   opacity: 100%;
-  background-color: #201E1D;
-  padding:0.2rem 0;
+  background-color: #201e1d;
+  padding: 1.25rem 1rem;
   border-radius: 30px;
 }
 
-.splide__slide div{
+.splide__slide div {
   opacity: 50%;
   background-color: white;
   transition: all 0.3s ease;
 }
 
-.splide__slide.is-next div{
+.splide__slide.is-next div {
   transform: scale(0.9);
 }
 
-.splide__slide.is-prev div{
+.splide__slide.is-prev div {
   transform: scale(0.9);
 }
 
-.splide__arrow.splide__arrow--next{
+.splide__arrow.splide__arrow--next {
   position: absolute;
-  right:20vw;
+  right: 20vw;
 }
-.splide__arrow.splide__arrow--prev{
+.splide__arrow.splide__arrow--prev {
   position: absolute;
-  left:20vw;
+  left: 20vw;
 }
 
-@media (max-width:900px) {
-  .splide__arrow.splide__arrow--next{
+@media (max-width: 900px) {
+  .splide__arrow.splide__arrow--next {
     position: absolute;
-    right:12vw;
+    right: 12vw;
   }
-  .splide__arrow.splide__arrow--prev{
+  .splide__arrow.splide__arrow--prev {
     position: absolute;
-    left:12vw;
+    left: 12vw;
   }
 }
 
-@media (max-width:600px) {
-  .splide__arrow.splide__arrow--next{
+@media (max-width: 600px) {
+  .splide__arrow.splide__arrow--next {
     position: absolute;
-    right:7vw;
+    right: 7vw;
   }
-  .splide__arrow.splide__arrow--prev{
+  .splide__arrow.splide__arrow--prev {
     position: absolute;
-    left:7vw;
+    left: 7vw;
+  }
+  .mobile {
+    display: flex;
+  }
+  .web {
+    display: none;
   }
 }
-@media (max-width:500px) {
-  .splide__arrow.splide__arrow--next{
+@media (max-width: 500px) {
+  .splide__arrow.splide__arrow--next {
     position: absolute;
-    right:1vw;
+    right: 1vw;
   }
-  .splide__arrow.splide__arrow--prev{
+  .splide__arrow.splide__arrow--prev {
     position: absolute;
-    left:1vw;
+    left: 1vw;
   }
 }
