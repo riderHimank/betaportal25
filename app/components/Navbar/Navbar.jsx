@@ -2,8 +2,10 @@
 import React, { useState, useEffect } from "react";
 import styles from "./navbar.module.css";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Montserrat } from "next/font/google";
+import logo from "../../../public/Frame.svg";
 
 const montserrat = Montserrat({
     weight: ['400', '700'],
@@ -39,7 +41,7 @@ function Navbar() {
         <div className="sticky top-0 z-50">
             <nav className={`flex justify-between w-full py-3 px-10 main ${styles.bg1} text-white items-center ${styles.textcolor1}`}>
                 <div className="leftlogo flex gap-1 items-center">
-                    <img src="/Frame.svg" alt="" className="logo w-10" />
+                    <Image src={logo} alt="" className="logo w-10" />
                     <h1 className={`${styles.heading} ${styles.textcolor1}`}>ALCHERINGA</h1>
                 </div>
                 <div className="right">
@@ -94,7 +96,7 @@ function Navbar() {
                             )}
                         </li>
                         <li>
-                            <Link href="#" className={`nav-link ${isActive('/team') ? `${styles.under} font-semibold` : ''}`}>
+                            <Link href="/team" className={`nav-link ${isActive('/team') ? `${styles.under} font-semibold` : ''}`}>
                                 Team
                             </Link>
                         </li>

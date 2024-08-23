@@ -19,6 +19,7 @@ const topSection = ({ title = "EVENTS", txt = "Lorem ipsum dolor sit amet consec
           </div>
           <Image
             src={backImg}
+            alt='background image'
             className='w-full'
           />
         </div>
