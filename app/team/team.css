@@ -1,0 +1,64 @@
+
+
+.page-container {
+    padding: 2vw;
+    background-color: #f8f1de;
+  }
+  
+  .section-container {
+    margin-bottom: 4vh;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 3vh;
+    font-family: Thunder;
+    font-size: 2.5vw;
+    text-decoration-color: white;
+    font-weight: bolder;
+  }
+  
+  .profile-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15vw, 1fr)); /* Adjust the column size */
+    gap: 2vw;
+    background-color: #f8f1de;
+    justify-content: center;
+  }
+  
+  .profile-grid-two-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Forces two columns */
+    gap: 2vw;
+    justify-content: center;
+  }
+  
+  .profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5vw;
+    border-radius: 1vw;
+    text-align: center;
+    
+  }
+  
+  .profile-image {
+    width: 10vw; /* Set a fixed width relative to the viewport */
+    height: 10vw; /* Ensure the height matches the width to keep the image square */
+    border-radius: 10%;
+    object-fit: cover;
+    margin-bottom: 1.5vh;
+    align-content: center;
+  }
+  
+  .profile-card h3 {
+    margin: 1vh 0;
+    font-size: 1.8vw;
+  }
+  
+  .profile-card p {
+    margin: 0.5vh 0;
+    font-size: 1.2vw;
+  }
+  
