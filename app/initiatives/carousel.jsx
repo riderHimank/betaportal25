@@ -62,7 +62,7 @@ const Carasouel = () => {
                                             width={image.width}
                                             height={image.height}
                                         />
-                                        <p className="text-[2.5vmax] text-center font-[thunFont] text-white absolute top-[250px] left-[50%] translate-x-[-50%]" >{image.head}</p>
+                                        <p className="text-[2.5vmax] text-center font-[thunFont] text-white absolute top-[135px] small_tablet:top-[250px] left-[50%] translate-x-[-50%]" >{image.head}</p>
                                         <div>
                                             <p className="text-[1.5vmax] font-dm-sans font-normal small_mobile:w-[88%] tablet:w-[95%] mx-auto text-white pb-6">
                                                 {image.txt}
