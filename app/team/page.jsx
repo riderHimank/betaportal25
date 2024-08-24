@@ -125,7 +125,7 @@ const data = {
     
   ],
 
-  "Web Ops": [
+  "Web Ops & App Ops": [
     {
       name: 'Himank Bohara',
       role: 'Web Operations Head',
@@ -140,20 +140,17 @@ const data = {
       email: 'webops@alcheringa.in',
       imageSrc: 'pics/WO pic 2.png',
     },
-    
-  ],
-
-  "App Ops": [
     {
-      name: 'Jivesh Firke',
-      role: 'App Development Head',
-      phone: '+91 830877000',
-      email: 'webops@alcheringa.in',
-      imageSrc: 'pics/AO pic.png',
-    },  
+        name: 'Jivesh Firke',
+        role: 'App Development Head',
+        phone: '+91 830877000',
+        email: 'webops@alcheringa.in',
+        imageSrc: 'pics/AO pic.png',
+      },  
   ],
 
-  "Convener": [
+
+  "Convener and Finance Head": [
     {
       name: 'Pradipta Jiwan H',
       role: 'Convener',
@@ -161,18 +158,15 @@ const data = {
       email: '@alcheringa.in',
       imageSrc: 'pics/conve pic.png',
     },
+    {
+        name: 'Astitva Jain',
+        role: 'Finance and Accounts Head',
+        phone: '+91 8527267283',
+        email: '@alcheringa.in',
+        imageSrc: 'pics/FH pic.png',
+      },
   ],
 
-  "Finance Head": [
-    {
-      name: 'Astitva Jain',
-      role: 'Finance and Accounts Head',
-      phone: '+91 8527267283',
-      email: '@alcheringa.in',
-      imageSrc: 'pics/FH pic.png',
-    },
-  ],
-  
   // Add more sections and members as needed
 };
 

@@ -44,8 +44,8 @@
   }
   
   .profile-image {
-    width: 10vw; /* Set a fixed width relative to the viewport */
-    height: 10vw; /* Ensure the height matches the width to keep the image square */
+    width: 12vw; /* Set a fixed width relative to the viewport */
+    height: 15vw; /* Ensure the height matches the width to keep the image square */
     border-radius: 10%;
     object-fit: cover;
     margin-bottom: 1.5vh;
