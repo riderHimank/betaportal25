@@ -23,7 +23,7 @@ function Footer() {
                                 +91 82929 67325</div>
                         </div>
                         <div className="contact2">
-                            <div className="name text-2xl">Sidharth Shukla</div>
+                            <div className="name text-2xl">Siddharth Shukla</div>
                             <div className="por my-2.5">PR Head</div>
                             <div className="phone flex">
                                 <Image src={phone} alt="" className='w-3' />
