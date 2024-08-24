@@ -39,15 +39,15 @@ function Footer() {
                         <div className={`${styles.social} flex gap-3 justify-end mt-4`}>
                             <div className={`flex gap-3`}>
 
-                            <a href="https://www.linkedin.com/company/alcheringaiitguwahati/mycompany/" className="linkedin">
-                                <Image src={linkedin} alt="" className={`h-6 ${styles.sharelogo}`} />
-                            </a>
-                            <a href="https://www.instagram.com/alcheringaiitg/" className="insta">
-                                <Image src={insta} alt="" className={`h-6 ${styles.sharelogo}`} />
-                            </a>
-                            <a href="https://www.facebook.com/alcheringaiitg" className="fb">
-                                <Image src={fb} alt="" className={`h-6 ${styles.sharelogo}`} />
-                            </a>
+                                <a href="https://www.linkedin.com/company/alcheringaiitguwahati/mycompany/" className="linkedin">
+                                    <Image src={linkedin} alt="" className={`h-6 ${styles.sharelogo}`} />
+                                </a>
+                                <a href="https://www.instagram.com/alcheringaiitg/" className="insta">
+                                    <Image src={insta} alt="" className={`h-6 ${styles.sharelogo}`} />
+                                </a>
+                                <a href="https://www.facebook.com/alcheringaiitg" className="fb">
+                                    <Image src={fb} alt="" className={`h-6 ${styles.sharelogo}`} />
+                                </a>
                             </div>
                             <div className={`flex gap-3`}>
 
@@ -64,6 +64,9 @@ function Footer() {
                 </div>
                 <div className="container2 logo">
                     <Image src={logo} alt="" className={`mx-auto sm:mt-12 sm:mb-5 ${styles.logo}`} />
+                </div>
+                <div className='w-full text-center text-gray-400 mt-6 text-[2vmin]'>
+                    <p>Developed by Alcheringa Web Operations</p>
                 </div>
             </div>
         </>

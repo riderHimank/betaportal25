@@ -20,9 +20,9 @@ const images = [
 const Carasouel = () => {
     return (
         <div className="w-full bg-[#201E1D] mb-2">
-            <div className="w-[99%] mx-auto bg-[#F8F1DE] rounded-2xl pt-10 mb-2">
+            <div className="w-[99%] mx-auto bg-[#F8F1DE] rounded-2xl py-10 mb-2">
                 <div className="w-6/12 mx-auto">
-                    <h1 className="text-[3rem] text-center font-[thunFont]">Kartavya</h1>
+                    <h1 className="text-[5vmax] text-center font-[thunFont]">Kartavya</h1>
                     <p className="text-center mt-4 font-dm-sans font-medium">
                         All our campaigns come under the roof of our “Kartavya”.
                     </p>

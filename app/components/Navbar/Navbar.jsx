@@ -40,10 +40,12 @@ function Navbar() {
     return (
         <div className="sticky top-0 z-50">
             <nav className={`flex justify-between w-full py-3 px-10 main ${styles.bg1} text-white items-center ${styles.textcolor1}`}>
-                <div className="leftlogo flex gap-1 items-center">
-                    <Image src={logo} alt="" className="logo w-10" />
-                    <h1 className={`${styles.heading} ${styles.textcolor1}`}>ALCHERINGA</h1>
-                </div>
+                <Link href="/">
+                    <div className="leftlogo flex gap-1 items-center">
+                        <Image src={logo} alt="" className="logo w-10" />
+                        <h1 className={`${styles.heading} ${styles.textcolor1}`}>ALCHERINGA</h1>
+                    </div>
+                </Link>
                 <div className="right">
                     <button className={styles.hamburger} onClick={toggleMenu}>
                         <div></div>
@@ -100,11 +102,11 @@ function Navbar() {
                                 Team
                             </Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link href="#" className={`nav-link`}>
                                 Register
                             </Link>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
 
@@ -146,11 +148,11 @@ function Navbar() {
                                 Team
                             </Link>
                         </li>
-                        <li className={`${styles.navlink}`}>
+                        {/* <li className={`${styles.navlink}`}>
                             <Link href="/register" onClick={toggleMenu} className={`${styles.navlink}`}>
                                 Register
                             </Link>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </nav>

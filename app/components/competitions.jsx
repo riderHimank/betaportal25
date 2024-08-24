@@ -31,7 +31,7 @@ export default function FeaturedCompetitions({ title }) {
                     />
                 </div>
                 <div className='item3'>
-                <span>Creator&apos;s Camp</span>
+                    <span>Creator&apos;s Camp</span>
                     <Image className='img_grid'
                         src={image3}
                         alt="Creator's Camp"
@@ -49,7 +49,8 @@ export default function FeaturedCompetitions({ title }) {
                         src={image5}
                         alt="Informals"
                     />
-                </div>            </div>
+                </div>
+            </div>
         </section>
     )
 }

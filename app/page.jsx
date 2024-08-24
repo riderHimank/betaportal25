@@ -36,15 +36,15 @@ export default function Home() {
           <p className="bg-[#F8F1DE] rounded-bl-2xl absolute top-0 right-0 py-2 px-6 flex justify-start items-center thunder-head text-[8.5vw] leading-tight">EXTRAORDINARY.</p>
         </div>
         <div className="flex justify-evenly items-center px-12 mt-6 gap-4 min-h-56">
-          <h3 className="text-[3rem] thunder-subhead">About <br />Alcheringa</h3>
-          <p className="text-md text-justify w-[50%] font-dm-sans">Alcheringa is the annual cultural festival of the Indian Institute of Technology (IIT), Guwahati. Started in 1996 by a group of students, Alcheringa, IIT Guwahati has become one of Asia’s most significant college-level cultural events. Spread over three days and four nights, Alcheringa attracts people from all over the world with its spectacular events and competitions.
+          <h3 className="text-[4vmax] thunder-subhead">About <br />Alcheringa</h3>
+          <p className="text-[1.5vmax] text-justify w-[60%] font-dm-sans">Alcheringa is the annual cultural festival of the Indian Institute of Technology (IIT), Guwahati. Started in 1996 by a group of students, Alcheringa, IIT Guwahati has become one of Asia’s most significant college-level cultural events. Spread over three days and four nights, Alcheringa attracts people from all over the world with its spectacular events and competitions.
           </p>
         </div>
       </section>
       <section className="mobile hidden bg-[#F8F1DE] p-8 rounded-[1.75rem] flex-col" >
         <h1 className="m-2 thunder-head text-[7.5vmax] leading-tight">EXPERIENCE THE</h1>
         <h1 className="m-2 thunder-head text-[7.5vmax] leading-tight">EXTRAORDINARY.</h1>
-        <div className="relative flex justify-center h-[50vh]">
+        <div className="relative flex justify-center h-[60vh]">
           <Image src={hero} alt="Loading.." className="rounded-3xl " />
           <div className="absolute bg-[#F8F1DE] py-3 rounded-bl-2xl right-0">
             <div className="bg1 px-10 py-3 ml-4 rounded-[30px] text-[#F8F1DE] flex items-center gap-4">
@@ -59,8 +59,13 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="flex flex-col justify-evenly items-center mt-6 gap-4 min-h-56">
+          <h3 className="text-[3rem] thunder-subhead w-[100%]">About <br />Alcheringa</h3>
+          <p className="text-md text-justify w-[100%] font-dm-sans">Alcheringa is the annual cultural festival of the Indian Institute of Technology (IIT), Guwahati. Started in 1996 by a group of students, Alcheringa, IIT Guwahati has become one of Asia’s most significant college-level cultural events. Spread over three days and four nights, Alcheringa attracts people from all over the world with its spectacular events and competitions.
+          </p>
+        </div>
       </section>
-      <section className=" text-[#F8F1DE] text-[4vmax] thunder-subhead flex items-center gap-2 justify-evenly p-6 min-h-[30vh]">
+      <section className=" text-[#F8F1DE] text-[4.5vmax] thunder-subhead flex items-center gap-2 justify-evenly py-6">
         <div className="flex items-start small_tablet:items-center flex-col">
           <span className="flex items-center">
             <SlotCounter value={80}
@@ -69,7 +74,7 @@ export default function Home() {
             />
             <p>+</p>
           </span>
-          <p className="py-2 text-[3vmax]">EVENTS</p>
+          <p className="py-2 text-[3.5vmax]">EVENTS</p>
         </div>
         <div className="flex items-start small_tablet:items-center flex-col">
           <span className="flex items-center">
@@ -79,7 +84,7 @@ export default function Home() {
             />
             <p>+</p>
           </span>
-          <p className="py-2 text-[3vmax]">FOOTFALL</p>
+          <p className="py-2 text-[3.5vmax]">FOOTFALL</p>
         </div>
         <div className="flex items-start small_tablet:items-center flex-col">
           <span className="flex items-center">
@@ -87,9 +92,9 @@ export default function Home() {
               duration={1.5}
               animateOnVisible={{ triggerOnce: false, rootMargin: '0px 0px -100px 0px' }}
             />
-            <p>+</p>
+            <p>+</p>  
           </span>
-          <p className="py-2 text-[3vmax]">COMPETITIONS</p>
+          <p className="py-2 text-[3.5vmax]">COMPETITIONS</p>
         </div>
       </section>
       <FeaturedCompetitions title={"Featured Events"} />

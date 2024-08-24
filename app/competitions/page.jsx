@@ -10,7 +10,27 @@ const topSection = ({ title = "COMPETITIONS", txt = "Lorem ipsum dolor sit amet 
 
   return (
     <>
-      <div className="topSection flex flex-col items-center justify-center rounded-3xl mb-6">
+      <div className="mobile hidden topSection pt-12 flex-col gap-4 items-center rounded-3xl mb-6">
+        <div className="name_box flex justify-center items-center">
+          <p>{title}</p>
+        </div>
+        <div className="img_box flex justify-center overflow-hidden">
+          <Image
+            src={backImg}
+            alt='background image'
+            className='small_tablet:w-full h-full'
+          />
+        </div>
+        <div className="overview_txt flex flex-col small_tablet:flex-row items-start justify-center mt-4">
+          <div className="box_1 flex justify-center items-center">
+            <p>Overview</p>
+          </div>
+          <div className="box_2 flex items-center">
+            <p>{txt}</p>
+          </div>
+        </div>
+      </div>
+      <div className="web topSection flex flex-col items-center justify-center rounded-3xl mb-6">
         <div className="check_txt flex items-end justify-center">
           <p className='txt1'>Check Out Our</p>
         </div>
@@ -38,7 +58,7 @@ const topSection = ({ title = "COMPETITIONS", txt = "Lorem ipsum dolor sit amet 
         <div className='header_events'>
           <h2>Modules</h2>
         </div>
-        <div className='flex flex-wrap p-2 gap-[10px] small_tablet:gap-5 items-center justify-center'>
+        <div className='grid grid-cols-2 small_tablet:flex small_tablet:flex-wrap p-4 gap-[10px] small_tablet:gap-5 small_tablet:items-center justify-center'>
           <ModulesCard title={"Pronites"} url={Image4} />
           <ModulesCard title={"Pronites"} url={Image4} />
           <ModulesCard title={"Pronites"} url={Image4} />
