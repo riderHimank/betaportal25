@@ -1,64 +1,124 @@
-
-
+@font-face {
+  font-family: "thunFont";
+  src: url("/Thunder-ExtraBoldLC.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.main-photo img{
+  width: 100vw;
+}
 .page-container {
-    padding: 2vw;
-    background-color: #f8f1de;
-  }
-  
-  .section-container {
-    margin-bottom: 4vh;
-  }
-  
-  h2 {
-    text-align: center;
-    margin-bottom: 3vh;
-    font-family: Thunder;
-    font-size: 2.5vw;
-    text-decoration-color: white;
-    font-weight: bolder;
-  }
-  
+  padding: 5vw 2vw;
+  border-radius: 20px;
+  background-color: #f8f1de;
+  outline: 2px dashed;
+  outline-offset: -13px;
+}
+
+.section-container {
+  margin-bottom: 4vh;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 3vh;
+  font-family: "thunFont";
+  font-size: 3rem;
+  text-decoration-color: white;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+.profile-grid {
+  display: flex;
+  background-color: #f8f1de;
+  justify-content: space-around;
+}
+.profile-grid2 {
+  display: flex;
+  background-color: #f8f1de;
+  justify-content: space-around;
+}
+.two{
+  gap:6rem;
+  justify-content: center !important;
+}
+
+.profile-grid-two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Forces two columns */
+  gap: 2vw;
+  justify-content: center;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5vw;
+  border-radius: 1vw;
+  text-align: center;
+}
+
+.profile-image {
+  width: 20vw;
+  /* border-radius: 10%; */
+  object-fit: cover;
+  margin-bottom: 1.5vh;
+  align-content: center;
+}
+
+.profile-card h3 {
+  margin: 1vh 0;
+  font-size: 1.8vw;
+}
+
+.profile-card p {
+  margin: 0.5vh 0;
+  font-size: 1.2vw;
+}
+@media screen and (max-width: 700px) {
   .profile-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15vw, 1fr)); /* Adjust the column size */
-    gap: 2vw;
-    background-color: #f8f1de;
-    justify-content: center;
-  }
-  
-  .profile-grid-two-columns {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Forces two columns */
-    gap: 2vw;
-    justify-content: center;
-  }
-  
-  .profile-card {
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 1.5vw;
-    border-radius: 1vw;
-    text-align: center;
-    
   }
-  
+  .profile-grid2 {
+    flex-direction: column;
+  }
+  /* .profile-grid-two-columns {
+    grid-template-columns: 1fr; /* Forces one column */
+  /* } */ 
+  .profile-card p{
+    font-size: 0.9rem;
+  }
+  .profile-card h3{
+    font-size: 1.4rem;
+  }
   .profile-image {
-    width: 12vw; /* Set a fixed width relative to the viewport */
-    height: 15vw; /* Ensure the height matches the width to keep the image square */
-    border-radius: 10%;
-    object-fit: cover;
-    margin-bottom: 1.5vh;
-    align-content: center;
+    width: 20rem;
   }
-  
+  .two{
+    gap:0;
+  }
+}
+@media screen and (min-width: 1300px){
+  h2{
+    font-size:4rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .profile-card {
+    padding: 1rem;
+  }
+  .profile-image {
+    width: 15rem;
+  }
   .profile-card h3 {
-    margin: 1vh 0;
-    font-size: 1.8vw;
+    font-size: 1.2rem;
   }
-  
+  h2{
+    font-size: 1.9rem;
+  }
   .profile-card p {
-    margin: 0.5vh 0;
-    font-size: 1.2vw;
+    font-size: 0.8rem;
   }
-  
+}
