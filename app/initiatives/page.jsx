@@ -6,7 +6,7 @@ import Image3 from "../../public/Image3.png"
 import EventsCard from '../components/eventsCard';
 import Carasouel from './carousel';
 
-const topSection = ({ title = "INITIATIVES", txt = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, commodi. Eum odio architecto, qui est delectus, quibusdam aspernatur exercitationem ratione et placeat sequi. Adipisci quae natus quas saepe, reprehenderit, vero voluptatibus, aspernatur voluptates a reiciendis laudantium ipsam nisi! Sint, saepe." }) => {
+const topSection = ({ title = "INITIATIVES", txt = "Alcheringa hosts several campaigns under Initiatives for cultural development and the betterment of society. These campaigns are conducted round the year to serve the mankind." }) => {
 
   return (
     <>

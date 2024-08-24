@@ -82,7 +82,7 @@ export default function Home() {
               duration={1.5}
               animateOnVisible={{ triggerOnce: false, rootMargin: '0px 0px -100px 0px' }}
             />
-            <p>+</p>
+            <p>K+</p>
           </span>
           <p className="py-2 text-[3.5vmax]">FOOTFALL</p>
         </div>

@@ -5,7 +5,7 @@ import backImg from "./background_img.jpeg";
 import Image3 from "../../public/Image3.png"
 import { EventsCard } from '../components/eventsCard';
 
-const topSection = ({ title = "EVENTS", txt = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, commodi. Eum odio architecto, qui est delectus, quibusdam aspernatur exercitationem ratione et placeat sequi. Adipisci quae natus quas saepe, reprehenderit, vero voluptatibus, aspernatur voluptates a reiciendis laudantium ipsam nisi! Sint, saepe." }) => {
+const topSection = ({ title = "EVENTS", txt = "Alcheringa has more than 80 events spread across various genres like fashion, music, art, sports, etc. They take place during the three days in which many events take place which includes panel discussions with various famous creators, informal activities like hot air balloon, ATV rides, paint ball shoot etc." }) => {
 
   return (
     <>

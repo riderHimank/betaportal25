@@ -6,15 +6,20 @@ import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 import Image from 'next/image'; // Import Image component from next/image
 
 // Import images
-import pic from "../../public/pic.jpg";
+import im1 from "../../public/pics/ini-1.png"
+import im2 from "../../public/pics/ini-2.png"
+import im3 from "../../public/pics/ini-3.png"
+import im4 from "../../public/pics/ini-4.png"
+import im5 from "../../public/pics/ini-5.png"
 import leftArrow from "../../public/leftarrow.jpg";
 import rightArrow from "../../public/rightarrow.jpg";
 
 const images = [
-    { src: pic, width: 600, height: 400 },
-    { src: pic, width: 600, height: 400 },
-    { src: pic, width: 600, height: 400 },
-    { src: pic, width: 600, height: 400 },
+    { head: "Manashakti", src: im1, width: 600, height: 400, txt: "Manshakti is a mental health awareness and wellness campaign by Alcheringa, IIT Guwahati, aimed at supporting those struggling during the global pandemic. The campaign focused on empathizing with individuals suffering from mental health issues and appreciating healthcare workers battling COVID-19. Manshakti collected and sent messages of encouragement from the public to frontline doctors and staff, offering them support and motivation during this challenging time." },
+    { head: "Udaan", src: im5, width: 600, height: 400, txt: "Udaan, originally known as \"Bachpan\" since 2011, is a social initiative by IIT Guwahati students aimed at uplifting underprivileged children. Through educational workshops, innovative programs, and motivational activities, students from IIT Guwahati and other colleges dedicate their time during vacations to inspire and support children from orphanages, villages, and slums, helping them realize their potential and dreams." },
+    { head: "SafHer", src: im3, width: 600, height: 400, txt: "SafHer is an Alcheringa campaign focused on women's safety, upliftment, and empowerment. While women have broken barriers in various fields, they often still face danger in their daily lives. SafHer encourages women to speak out, hold perpetrators accountable, and build a society where they can live confidently and freely, realizing their full potential." },
+    { head: "Aikyam", src: im4, width: 600, height: 400, txt: "Alcheringa stands against the backdrop of communal disharmony plaguing India. Through AIKYAM, we aim to foster unity and peace. Expect thought-provoking panel discussions, soul-stirring performances, and impactful fundraisers. Join us in building a harmonious future." },
+    { head: "Prithvi", src: im2, width: 600, height: 400, txt: "Project Prithvi by Team Alcheringa aims to raise awareness about climate change and encourage individual actions that positively impact the environment. By educating people through engaging activities, the campaign emphasizes the importance of personal responsibility in the fight against climate change, promoting a simpler lifestyle to help protect our planet." },
 ];
 
 const Carasouel = () => {
@@ -23,7 +28,7 @@ const Carasouel = () => {
             <div className="w-[99%] mx-auto bg-[#F8F1DE] rounded-2xl py-10 mb-2">
                 <div className="w-6/12 mx-auto">
                     <h1 className="text-[5vmax] text-center font-[thunFont]">Kartavya</h1>
-                    <p className="text-center mt-4 font-dm-sans font-medium">
+                    <p className="text-center text-[1.6vmax] mt-4 font-dm-sans font-medium">
                         All our campaigns come under the roof of our “Kartavya”.
                     </p>
                 </div>
@@ -57,9 +62,10 @@ const Carasouel = () => {
                                             width={image.width}
                                             height={image.height}
                                         />
+                                        <p className="text-[2.5vmax] text-center font-[thunFont] text-white absolute top-[250px] left-[50%] translate-x-[-50%]" >{image.head}</p>
                                         <div>
-                                            <p className="font-dm-sans font-normal small_mobile:w-[88%] tablet:w-[95%] mx-auto text-white pb-6">
-                                                Alcheringa stands against the backdrop of communal disharmony plaguing India. Through AIKYAM, we aim to foster unity and peace. Expect thought-provoking panel discussions, soul-stirring performances, and impactful fundraisers. Join us in building a harmonious future.
+                                            <p className="text-[1.5vmax] font-dm-sans font-normal small_mobile:w-[88%] tablet:w-[95%] mx-auto text-white pb-6">
+                                                {image.txt}
                                             </p>
                                         </div>
                                     </div>

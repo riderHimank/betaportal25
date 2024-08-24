@@ -10,7 +10,7 @@ export default function Team() {
         <img src="pics/Frame 6356232.png" alt="Group photo" />
       </div>
       <div className="page-container">
-        
+
         {/* Public Relations & Branding Section */}
         <div className="section-container">
           <h2>Public Relations & Branding</h2>
@@ -19,21 +19,21 @@ export default function Team() {
               name="Sudhanshu Raj"
               role="Public Relations Head"
               phone="+91 8292967325"
-              email="publicrelations@alcheringa.in"
+              email="sudhanshu@alcheringa.in"
               imageSrc="pics/pr pic 1.png"
             />
             <ProfileCard
               name="Siddharth Shukla"
               role="Public Relations Head"
               phone="+91 7566494761"
-              email="publicrelations2@alcheringa.in"
+              email="siddharth@alcheringa.in"
               imageSrc="pics/pr pic 2.png"
             />
             <ProfileCard
               name="Sulabh Napit"
               role="Media and Outreach Head"
               phone="+91 8349363008"
-              email="media@alcheringa.in"
+              email="sulabh@alcheringa.in"
               imageSrc="pics/pr pic 3.png"
             />
           </div>
@@ -45,30 +45,30 @@ export default function Team() {
           <div className="profile-grid2">
             <ProfileCard
               name="Prakrati Sahu"
-              role="CR&M Head"
+              role="CRM Head"
               phone="+91 8887710888"
-              email="marketing1@alcheringa.in"
+              email="marketing@alcheringa.in"
               imageSrc="pics/Frame 6356227.png"
             />
             <ProfileCard
               name="Prajapati Vivek M"
-              role="CR&M Head"
+              role="CRM Head"
               phone="+91 7696990943"
-              email="marketing2@alcheringa.in"
+              email="marketing@alcheringa.in"
               imageSrc="pics/Frame 6356227-1.png"
             />
             <ProfileCard
               name="Kishor Kunal"
-              role="CR&M Head"
+              role="CRM Head"
               phone="+91 8290098000"
-              email="marketing3@alcheringa.in"
+              email="marketing@alcheringa.in"
               imageSrc="pics/Frame 6356227-2.png"
             />
             <ProfileCard
               name="Jayes Ranjan"
-              role="CR&M Head"
+              role="CRM Head"
               phone="+91 8310037471"
-              email="marketing4@alcheringa.in"
+              email="marketing@alcheringa.in"
               imageSrc="pics/Frame 6356227-3.png"
             />
           </div>
@@ -82,21 +82,21 @@ export default function Team() {
               name="Abhijeet Ghosh"
               role="Events Management Head"
               phone="+91 9336729959"
-              email="events@alcheringa.in"
+              email="abhijeet@alcheringa.in"
               imageSrc="pics/E pic 1.png"
             />
             <ProfileCard
               name="Krishna Agarwal"
               role="Pronites Head"
               phone="+91 7049606444"
-              email="events@alcheringa.in"
+              email="krishna@alcheringa.in"
               imageSrc="pics/E pic 2.png"
             />
             <ProfileCard
               name="Pramit Some"
               role="Campaigns Head"
               phone="+91 8697731037"
-              email="campaigns@alcheringa.in"
+              email="Pramit@alcheringa.in"
               imageSrc="pics/E pic 3.png"
             />
           </div>
@@ -124,7 +124,7 @@ export default function Team() {
               name="Nikita Sharma"
               role="Digital Media Head"
               phone="+91 8292967325"
-              email="creativess@alcheringa.in"
+              email="creatives@alcheringa.in"
               imageSrc="pics/c pic 3.png"
             />
           </div>
@@ -187,14 +187,14 @@ export default function Team() {
               name="Pradipta Jiwan H"
               role="Convener"
               phone="+91 8292967325"
-              email="@alcheringa.in"
+              email="pradipta@alcheringa.in"
               imageSrc="pics/conve pic.png"
             />
             <ProfileCard
               name="Astitva Jain"
               role="Finance and Accounts Head"
               phone="+91 8527267283"
-              email="@alcheringa.in"
+              email="astitva@alcheringa.in"
               imageSrc="pics/FH pic.png"
             />
           </div>

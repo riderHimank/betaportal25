@@ -144,7 +144,7 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className={`${styles.navlink}`}>
-                            <Link href="#" onClick={toggleMenu} className={` ${isActive('/team') ? `${styles.under} font-semibold` : ''}`}>
+                            <Link href="/team" onClick={toggleMenu} className={` ${isActive('/team') ? `${styles.under} font-semibold` : ''}`}>
                                 Team
                             </Link>
                         </li>

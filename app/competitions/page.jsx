@@ -6,7 +6,7 @@ import Image4 from "../../public/Image4.png"
 import FeaturedCompetitions from '../components/competitions';
 import { ModulesCard } from '../components/eventsCard';
 
-const topSection = ({ title = "COMPETITIONS", txt = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, commodi. Eum odio architecto, qui est delectus, quibusdam aspernatur exercitationem ratione et placeat sequi. Adipisci quae natus quas saepe, reprehenderit, vero voluptatibus, aspernatur voluptates a reiciendis laudantium ipsam nisi! Sint, saepe." }) => {
+const topSection = ({ title = "COMPETITIONS", txt = "Alcheringa has many competitions spread across various genres. They take place during the three days with the prize distribution on the last day. People all over the country participate in these competitions to win exciting prizes and goodies and to witness one of India's biggest cultural festival." }) => {
 
   return (
     <>
