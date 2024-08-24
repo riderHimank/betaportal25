@@ -54,7 +54,7 @@ h2 {
 .profile-card {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   padding: 1.5vw;
   border-radius: 1vw;
   text-align: center;
@@ -69,26 +69,34 @@ h2 {
 }
 
 .profile-card h3 {
-  margin: 1vh 0;
-  font-size: 1.8vw;
+  font-size: 2vw;
+  font-weight: 700;
 }
-
+.role{
+  font-weight: 500;
+  font-size: 1.5vw !important;
+}
 .profile-card p {
   margin: 0.5vh 0;
-  font-size: 1.2vw;
+  font-size: 1.1vw;
 }
 @media screen and (max-width: 700px) {
   .profile-grid {
+    align-items: center;
     flex-direction: column;
   }
   .profile-grid2 {
+    align-items: center;
     flex-direction: column;
   }
   /* .profile-grid-two-columns {
     grid-template-columns: 1fr; /* Forces one column */
   /* } */ 
+  .role{
+    font-size: 1.2rem !important;
+  }
   .profile-card p{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   .profile-card h3{
     font-size: 1.4rem;
@@ -108,6 +116,9 @@ h2 {
 @media screen and (max-width: 500px) {
   .profile-image {
     width: 15rem;
+  }
+  .role{
+    font-size: 1rem !important;
   }
   .profile-card h3 {
     font-size: 1.2rem;

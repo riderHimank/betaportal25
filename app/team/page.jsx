@@ -122,7 +122,7 @@ export default function Team() {
             />
             <ProfileCard
               name="Sai Sankeerth V"
-              role="Pronites Head"
+              role="Web-Design Head"
               phone="+91 88850 59696"
               email="creatives@alcheringa.in"
               imageSrc="pics/c pic 2.png"

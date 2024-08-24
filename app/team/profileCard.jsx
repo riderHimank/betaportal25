@@ -6,7 +6,7 @@ const ProfileCard = ({ name, role, phone, email, imageSrc }) => {
     <div className="profile-card">
       <img src={imageSrc} alt={`${name}`} className="profile-image" />
       <h3>{name}</h3>
-      <p>{role}</p>
+      <p className='role'>{role}</p>
       <p>{phone}</p>
       <p>{email}</p>
     </div>

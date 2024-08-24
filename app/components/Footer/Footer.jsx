@@ -66,7 +66,7 @@ function Footer() {
                     <Image src={logo} alt="" className={`mx-auto sm:mt-12 sm:mb-5 ${styles.logo}`} />
                 </div>
                 <div className='w-full text-center text-gray-400 mt-6 text-[2vmin]'>
-                    <p>Developed by Alcheringa Web Operations</p>
+                    <p>Designed by Team Creatives. Developed by Team Web Operations.</p>
                 </div>
             </div>
         </>
