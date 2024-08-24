@@ -167,7 +167,7 @@ export default function Team() {
               role="Web Operations Head"
               phone="+91 8085774946"
               email="webops@alcheringa.in"
-              imageSrc="pics/WO pic 2.png"
+              imageSrc="pics/WO Pic 2.png"
             />
             <ProfileCard
               name="Jivesh Firke"

@@ -106,9 +106,6 @@ h2 {
   }
 }
 @media screen and (max-width: 500px) {
-  .profile-card {
-    padding: 1rem;
-  }
   .profile-image {
     width: 15rem;
   }
@@ -117,6 +114,11 @@ h2 {
   }
   h2{
     font-size: 1.9rem;
+    padding: 0;
+    margin-bottom: 0;
+  }
+  .page-container {
+    padding-top: 7vw;
   }
   .profile-card p {
     font-size: 0.8rem;
