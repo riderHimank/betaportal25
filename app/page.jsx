@@ -44,8 +44,8 @@ export default function Home() {
       <section className="mobile hidden bg-[#F8F1DE] p-8 rounded-[1.75rem] flex-col" >
         <h1 className="m-2 thunder-head text-[7.5vmax] leading-tight">EXPERIENCE THE</h1>
         <h1 className="m-2 thunder-head text-[7.5vmax] leading-tight">EXTRAORDINARY.</h1>
-        <div className="relative flex justify-center h-[60vh]">
-          <Image src={hero} alt="Loading.." className="rounded-3xl " />
+        <div className="relative flex justify-center h-[70vh]">
+          <Image src={hero} alt="Loading.." className="rounded-3xl h-full" />
           <div className="absolute bg-[#F8F1DE] py-3 rounded-bl-2xl right-0">
             <div className="bg1 px-10 py-3 ml-4 rounded-[30px] text-[#F8F1DE] flex items-center gap-4">
               <p className="thunder-head text-center text-[8vw] leading-tight flex items-center"> EDITION </p>
@@ -92,7 +92,7 @@ export default function Home() {
               duration={1.5}
               animateOnVisible={{ triggerOnce: false, rootMargin: '0px 0px -100px 0px' }}
             />
-            <p>+</p>  
+            <p>+</p>
           </span>
           <p className="py-2 text-[3.5vmax]">COMPETITIONS</p>
         </div>
