@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "thunFont";
-  src: url("/Thunder-BlackLC.ttf") format("truetype");
+  src: url("/Thunder-ExtraBoldLC.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -65,7 +65,7 @@
   font-family: "thunFont";
   padding: 0vw 3.5vw;
   font-size: 8.89vmax;
-  font-weight: 900;
+  font-weight: 500;
   letter-spacing: 2%;
   color: #201e1d;
 }
@@ -89,7 +89,7 @@
 }
 
 .box_1 > p {
-  font-weight: 800;
+  font-weight: 500;
   font-size: 5vmax;
   font-family: "thunFont";
   color: #201e1d;
