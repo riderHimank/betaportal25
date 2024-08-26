@@ -45,28 +45,28 @@ export default function Team() {
           <div className="profile-grid2">
             <ProfileCard
               name="Prakrati Sahu"
-              role="CR&M Head"
+              role="CRM Head"
               phone="+91 80837 21976"
               email="prakrati@alcheringa.in"
               imageSrc="pics/Frame 6356227.png"
             />
             <ProfileCard
               name="Prajapati Vivek M"
-              role="CR&M Head"
+              role="CRM Head"
               phone="+91 70169 90353"
               email="vivek@alcheringa.in"
               imageSrc="pics/Frame 6356227-1.png"
             />
             <ProfileCard
               name="Kishor Kunal"
-              role="CR&M Head"
+              role="CRM Head"
               phone="+91 62041 80280"
               email="kunal.k@alcheringa.in"
               imageSrc="pics/Frame 6356227-2.png"
             />
             <ProfileCard
               name="Jayes Ranjan"
-              role="CR&M Head"
+              role="CRM Head"
               phone="+91 80023 57771"
               email="Jayes@alcheringa.in"
               imageSrc="pics/Frame 6356227-3.png"
