@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import hero from "../public/hero.png";
+import heromobile from "../public/hero-mobile.png";
 import SlotCounter from "react-slot-counter";
 import { useEffect, useState } from "react";
 import "./landing.css";
@@ -32,7 +33,7 @@ export default function Home() {
         </div>
 
         <div className="relative flex justify-center h-[85vh]">
-          <Image src={hero} alt="Loading.." className="rounded-3xl " />
+          <Image src={hero} alt="Loading.." className="rounded-3xl h-[70%] small_tablet:h-full" />
           <p className="bg-[#F8F1DE] rounded-bl-2xl absolute top-0 right-0 py-2 px-6 flex justify-start items-center thunder-head text-[8.5vw] leading-tight">EXTRAORDINARY.</p>
         </div>
         <div className="flex justify-evenly items-center px-12 mt-6 gap-4 min-h-56">
@@ -45,7 +46,7 @@ export default function Home() {
         <h1 className="m-2 thunder-head text-[7.5vmax] leading-tight">EXPERIENCE THE</h1>
         <h1 className="m-2 thunder-head text-[7.5vmax] leading-tight">EXTRAORDINARY.</h1>
         <div className="relative flex justify-center h-[70vh]">
-          <Image src={hero} alt="Loading.." className="rounded-3xl h-full" />
+          <Image src={heromobile} alt="Loading.." className="rounded-3xl h-full" />
           <div className="absolute bg-[#F8F1DE] py-3 rounded-bl-2xl right-0">
             <div className="bg1 px-10 py-3 ml-4 rounded-[30px] text-[#F8F1DE] flex items-center gap-4">
               <p className="thunder-head text-center text-[8vw] leading-tight flex items-center"> EDITION </p>

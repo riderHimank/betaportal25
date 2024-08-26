@@ -69,8 +69,8 @@ function Navbar() {
                             </Link>
                         </li>
                         <li>
-                            <Link href="/initiatives" className={`nav-link ${isActive('/initiatives') ? `${styles.under} font-semibold` : ''}`}>
-                                Initiatives
+                            <Link href="/kartavya" className={`nav-link ${isActive('/kartavya') ? `${styles.under} font-semibold` : ''}`}>
+                                Kartavya
                             </Link>
                         </li>
                         <li>
@@ -129,8 +129,8 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className={`${styles.navlink}`}>
-                            <Link href="/initiatives" onClick={toggleMenu} className={` ${isActive('/initiatives') ? `${styles.under} font-semibold` : ''}`}>
-                                Initiatives
+                            <Link href="/kartavya" onClick={toggleMenu} className={` ${isActive('/kartavya') ? `${styles.under} font-semibold` : ''}`}>
+                                Kartavya
                             </Link>
                         </li>
                         <li className={`${styles.navlink}`}>

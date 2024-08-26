@@ -1,12 +1,11 @@
 import React from 'react';
 import "./topSection.css";
 import Image from 'next/image';
-import backImg from "./background_img.jpeg";
-import Image3 from "../../public/Image3.png"
-import EventsCard from '../components/eventsCard';
+import backImg from "../../public/hero.png";
+import backImgmobile from "../../public/hero-mobile.png";
 import Carasouel from './carousel';
 
-const topSection = ({ title = "INITIATIVES", txt = "Alcheringa hosts several campaigns under Initiatives for cultural development and the betterment of society. These campaigns are conducted round the year to serve the mankind." }) => {
+const topSection = ({ title = "KARTAVYA", txt = "Alcheringa hosts several campaigns under Kartavya for cultural development and the betterment of society. These campaigns are conducted round the year to serve the mankind." }) => {
 
   return (
     <>
@@ -16,9 +15,9 @@ const topSection = ({ title = "INITIATIVES", txt = "Alcheringa hosts several cam
         </div>
         <div className="img_box flex justify-center overflow-hidden">
           <Image
-            src={backImg}
+            src={backImgmobile}
             alt='background image'
-            className='small_tablet:w-full h-full'
+            className='small_tablet:w-full h-full rounded-2xl'
           />
         </div>
         <div className="overview_txt flex flex-col small_tablet:flex-row items-start justify-center mt-4">

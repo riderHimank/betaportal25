@@ -21,6 +21,27 @@
   outline: 2px dashed;
   outline-offset: -10px;
 }
+.modules_section {
+  /* margin: 0 auto; */
+  background-color: #f8f1de;
+  width: 100%;
+  padding: 0 1vw;
+  padding-top: 2vh;
+  padding-bottom: 7vh;
+  outline: 2px dashed;
+  outline-offset: -10px;
+}
+
+.modules_section span {
+  position: absolute;
+  color: white;
+  top: 85%;
+  font-family: "thunFont", "Arial Narrow", Arial, sans-serif;
+  font-size: 2.5vmax;
+  font-weight: 400;
+  width: 100%;
+  text-align: center;
+}
 
 .header_events {
   font-family: "thunFont";
@@ -59,35 +80,29 @@
 }
 
 .img_grid {
+  width: 100%;
   border-radius: 15px;
 }
 
 .featured_events_section span {
   position: absolute;
   color: white;
-  top: 90%;
-  left: 50%;
+  bottom: 1vmin;
   font-family: "thunFont", "Arial Narrow", Arial, sans-serif;
   font-size: 2.5vmax;
   font-weight: 400;
   width: 100%;
-  padding-left: 35%;
-  transform: translate(-50%, -50%);
+  text-align: center;
 }
 .spann {
   position: absolute;
   color: white;
-  top: 90%;
-  left: 60%;
+  bottom: 1vmin;
   font-family: "thunFont", "Arial Narrow", Arial, sans-serif;
   font-size: 2.5vmax;
   font-weight: 400;
   width: 100%;
-  padding-left: 35%;
-  transform: translate(-50%, -50%);
-}
-.span_cr {
-  padding-left: 21% !important;
+  text-align: center;
 }
 
 .grid_container {
