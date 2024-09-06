@@ -12,9 +12,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-    <head>
-    </head>
-      <body className={inter.className}>
+      <head>
+      </head>
+      <body className={inter.className} style={{ overflowX: "hidden" }}>
         <Navbar />
         <main>{children}</main>
         <Footer />

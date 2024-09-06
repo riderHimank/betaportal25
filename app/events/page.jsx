@@ -27,7 +27,7 @@ const topSection = ({ title = "EVENTS", txt = "Alcheringa has more than 80 event
         </div>
         <div className="overview_txt flex flex-col small_tablet:flex-row items-start justify-center mt-4">
           <div className="box_1 flex justify-center items-center">
-            <p>Overview</p>
+            <p className='stroke'>Overview</p>
           </div>
           <div className="box_2 flex items-center">
             <p>{txt}</p>
@@ -36,7 +36,7 @@ const topSection = ({ title = "EVENTS", txt = "Alcheringa has more than 80 event
       </div>
       <div className="web topSection flex flex-col items-center justify-center rounded-3xl mb-6">
         <div className="check_txt flex items-end justify-center">
-          <p className='txt1'>Check Out Our</p>
+          <p className='txt1 text-[#C9F090]'>Check Out Our</p>
         </div>
         <div className="img_box flex justify-center overflow-hidden">
           <div className="name_box absolute flex justify-center items-center">
@@ -50,7 +50,7 @@ const topSection = ({ title = "EVENTS", txt = "Alcheringa has more than 80 event
         </div>
         <div className="overview_txt flex flex-row justify-center">
           <div className="box_1 flex justify-center items-center">
-            <p>Overview</p>
+            <p className='stroke'>Overview</p>
           </div>
           <div className="box_2 flex items-center">
             <p>{txt}</p>

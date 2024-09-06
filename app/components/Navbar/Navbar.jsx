@@ -85,7 +85,7 @@ function Navbar() {
                             {programOpen && (
                                 <ul className={styles.dropdownMenu}>
                                     <li>
-                                        <Link href="#" className={`nav-link`}>
+                                        <Link href="https://ambassador.alcheringa.in" className={`nav-link`}>
                                             Campus Ambassador
                                         </Link>
                                     </li>

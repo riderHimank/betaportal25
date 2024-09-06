@@ -80,7 +80,8 @@
   font-size: 1.67vmax;
   font-weight: 700;
   font-family: "DM Sans", sans-serif;
-  color: #201e1d;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
 }
 
 .box_1 {

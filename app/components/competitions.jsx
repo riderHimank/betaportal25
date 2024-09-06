@@ -9,11 +9,12 @@ import image3 from "../../public/cc25.png";
 import image4 from "../../public/Image4.png";
 import image5 from "../../public/Image5.png";
 
-export default function FeaturedCompetitions({ title, t1 = "", t2 = "", t3 = "", t4 = "", t5 = "", u1 = "", u2 = "", u3 = "", u4 = "", u5 = "" }) {
+export default function FeaturedCompetitions({ pg = "", title, tag, t1 = "", t2 = "", t3 = "", t4 = "", t5 = "", u1 = "", u2 = "", u3 = "", u4 = "", u5 = "" }) {
     return (
-        <section className='featured_events_section rounded-3xl mb-[2.5vh]'>
-            <div className='header_events'>
-                <h2>{title}</h2>
+        <section className='featured_events_section rounded-3xl mb-[2.5vh] '>
+            <div className='header_events relative'>
+                <h2 className={`tag ${pg}`}>{tag}</h2>
+                <h2 className='z-[2]'>{title}</h2>
             </div>
             <div className='grid_container thunder-subhead'>
                 <div className='item1'>

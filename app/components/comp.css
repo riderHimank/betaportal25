@@ -16,8 +16,8 @@
   background-color: #f8f1de;
   width: 100%;
   padding: 0 1vw;
-  padding-top: 2vh;
-  padding-bottom: 7vh;
+  padding-top: 10vh;
+  padding-bottom: 5vh;
   outline: 2px dashed;
   outline-offset: -10px;
 }
@@ -26,8 +26,8 @@
   background-color: #f8f1de;
   width: 100%;
   padding: 0 1vw;
-  padding-top: 2vh;
-  padding-bottom: 7vh;
+  padding-top: 10vmin;
+  padding-bottom: 7vmin;
   outline: 2px dashed;
   outline-offset: -10px;
 }
@@ -46,7 +46,7 @@
 .header_events {
   font-family: "thunFont";
   font-size: 5vmax;
-  margin: 4vh auto;
+  margin: 4vmin auto;
   display: flex;
   align-items: center;
   justify-content: center;

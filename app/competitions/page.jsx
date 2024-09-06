@@ -39,7 +39,7 @@ const topSection = ({ title = "COMPETITIONS", txt = "Alcheringa has many competi
         </div>
         <div className="overview_txt flex flex-col small_tablet:flex-row items-start justify-center mt-4">
           <div className="box_1 flex justify-center items-center">
-            <p>Overview</p>
+            <p className='stroke text-[#C9F090]'>Overview</p>
           </div>
           <div className="box_2 flex items-center">
             <p>{txt}</p>
@@ -48,7 +48,7 @@ const topSection = ({ title = "COMPETITIONS", txt = "Alcheringa has many competi
       </div>
       <div className="web topSection flex flex-col items-center justify-center rounded-3xl mb-6">
         <div className="check_txt flex items-end justify-center">
-          <p className='txt1'>Check Out Our</p>
+          <p className='txt1 text-[#C9F090]'>Check Out Our</p>
         </div>
         <div className="img_box flex justify-center overflow-hidden">
           <div className="name_box absolute flex justify-center items-center">
@@ -62,14 +62,14 @@ const topSection = ({ title = "COMPETITIONS", txt = "Alcheringa has many competi
         </div>
         <div className="overview_txt flex flex-row justify-center">
           <div className="box_1 flex justify-center items-center">
-            <p>Overview</p>
+            <p className='stroke' >Overview</p>
           </div>
           <div className="box_2 flex items-center">
             <p>{txt}</p>
           </div>
         </div>
       </div>
-      <FeaturedCompetitions title={"Featured Competitions"}
+      <FeaturedCompetitions pg={"comp"} tag={"Featured"} title={"Competitions"}
         t1='Parliamentary Debate'
         t3='Haute Couture'
         t2='Electric Heels'
@@ -82,8 +82,9 @@ const topSection = ({ title = "COMPETITIONS", txt = "Alcheringa has many competi
         u5={f1}
       />
       <section className='modules_section rounded-3xl mt-[2.5vh]'>
-        <div className='header_events'>
-          <h2>Modules</h2>
+        <div className='header_events relative'>
+          <h2 className="tag comps">Competitions</h2>
+          <h2 className='z-[2]'>Modules</h2>
         </div>
         <div className='grid grid-cols-2 small_tablet:flex small_tablet:flex-wrap p-4 gap-[10px] small_tablet:gap-5 small_tablet:items-center justify-center'>
           <ModulesCard title={"Vogue Nation"} url={m1} />
