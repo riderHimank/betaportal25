@@ -139,7 +139,7 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className={`${styles.navlink}`}>
-                            <Link href="#" onClick={toggleMenu} className={`${styles.navlink}`}>
+                            <Link href="https://ambassador.alcheringa.in" onClick={toggleMenu} className={`${styles.navlink}`}>
                                 Campus Ambassador
                             </Link>
                         </li>
