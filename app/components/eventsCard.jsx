@@ -3,7 +3,7 @@ import "./comp.css"
 export const EventsCard = ({ title, url }) => {
     return (
         <div className="w-[90%] small_tablet:w-[70%] relative ">
-            <Image src={url} alt={"Loading..."} className="w-[100%] h-[30vh] small_tablet:h-[50vh] rounded-2xl" />
+            <Image src={url} alt={"Loading..."} className="w-[100%] h-[25vh] small_tablet:h-[50vh] rounded-2xl" />
             <span className="spann">{title}</span>
         </div >
     );

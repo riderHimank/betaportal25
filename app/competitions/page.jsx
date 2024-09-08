@@ -1,9 +1,9 @@
 import React from 'react';
 import "./topSection.css";
 import Image from 'next/image';
-import backImg from "../../public/hero.png";
-import backImgmobile from "../../public/hero-mobile.png";
-import m1 from "../../public/images/c1.jpg"
+import backImg from "../../public/comp.png";
+import backImgmobile from "../../public/comp_mobile.png";
+import m1 from "../../public/images/c1.png"
 import m2 from "../../public/images/c2.jpg"
 import m3 from "../../public/images/c3.jpg"
 import m4 from "../../public/images/c4.jpg"

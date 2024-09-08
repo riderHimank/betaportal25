@@ -16,8 +16,8 @@
   background-color: #f8f1de;
   width: 100%;
   padding: 0 1vw;
-  padding-top: 10vh;
-  padding-bottom: 5vh;
+  padding-top: 10vmin;
+  padding-bottom: 5vmin;
   outline: 2px dashed;
   outline-offset: -10px;
 }

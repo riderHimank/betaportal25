@@ -1,12 +1,12 @@
 import React from 'react';
 import "./topSection.css";
 import Image from 'next/image';
-import backImg from "../../public/hero.png";
-import backImgmobile from "../../public/hero-mobile.png";
+import backImg from "../../public/events.png";
+import backImgmobile from "../../public/events_mobile.png";
 import Image3 from "../../public/cc25.png"
-import Image1 from "../../public/Image1.png"
-import Image2 from "../../public/Image2.png"
-import Image4 from "../../public/images/cd2.jpg"
+import Image1 from "../../public/Image1_long.png"
+import Image2 from "../../public/Image2_new.png"
+import Image4 from "../../public/images/cd25.png"
 import Image5 from "../../public/images/informals.png"
 import { EventsCard } from '../components/eventsCard';
 

@@ -11,15 +11,21 @@ import im2 from "../../public/pics/ini-2.png"
 import im3 from "../../public/pics/ini-3.png"
 import im4 from "../../public/pics/ini-4.png"
 import im5 from "../../public/pics/ini-5.png"
+import san from "../../public/pics/sanrakshan.png"
+import ness from "../../public/pics/ness.png"
+import nexpo from "../../public/pics/NEU.png"
 import leftArrow from "../../public/leftarrow.jpg";
 import rightArrow from "../../public/rightarrow.jpg";
 
 const images = [
-    { head: "Manashakti", src: im1, width: 600, height: 400, txt: "Manshakti is a mental health awareness and wellness campaign by Alcheringa, IIT Guwahati, aimed at supporting those struggling during the global pandemic. The campaign focused on empathizing with individuals suffering from mental health issues and appreciating healthcare workers battling COVID-19. Manshakti collected and sent messages of encouragement from the public to frontline doctors and staff, offering them support and motivation during this challenging time." },
-    { head: "Udaan", src: im5, width: 600, height: 400, txt: "Udaan, originally known as \"Bachpan\" since 2011, is a social initiative by IIT Guwahati students aimed at uplifting underprivileged children. Through educational workshops, innovative programs, and motivational activities, students from IIT Guwahati and other colleges dedicate their time during vacations to inspire and support children from orphanages, villages, and slums, helping them realize their potential and dreams." },
     { head: "SafHer", src: im3, width: 600, height: 400, txt: "SafHer is an Alcheringa campaign focused on women's safety, upliftment, and empowerment. While women have broken barriers in various fields, they often still face danger in their daily lives. SafHer encourages women to speak out, hold perpetrators accountable, and build a society where they can live confidently and freely, realizing their full potential." },
-    { head: "Aikyam", src: im4, width: 600, height: 400, txt: "Alcheringa stands against the backdrop of communal disharmony plaguing India. Through AIKYAM, we aim to foster unity and peace. Expect thought-provoking panel discussions, soul-stirring performances, and impactful fundraisers. Join us in building a harmonious future." },
+    { head: "Udaan", src: im5, width: 600, height: 400, txt: "Udaan, originally known as \"Bachpan\" since 2011, is a social initiative by IIT Guwahati students aimed at uplifting underprivileged children. Through educational workshops, innovative programs, and motivational activities, students from IIT Guwahati and other colleges dedicate their time during vacations to inspire and support children from orphanages, villages, and slums, helping them realize their potential and dreams." },
     { head: "Prithvi", src: im2, width: 600, height: 400, txt: "Project Prithvi by Team Alcheringa aims to raise awareness about climate change and encourage individual actions that positively impact the environment. By educating people through engaging activities, the campaign emphasizes the importance of personal responsibility in the fight against climate change, promoting a simpler lifestyle to help protect our planet." },
+    { head: "North East Expo", src: nexpo, width: 600, height: 400, txt: "North East Expo is conducted every year to promote the cultural diversity of North East India through performances and showcasing its regional art and handicraft forms" },
+    { head: "NESS", src: ness, width: 600, height: 400, txt: "Innovation, strategisation and problem solving for social benefit is the very core of North East Social Summit. Every year, this campaign provides a platform to discuss the socio-political and cultural issues specific to North East India." },
+    { head: "Sanrakshan", src: san, width: 600, height: 400, txt: "Sanrakshan is a dual-purpose campaign tackling AIDS awareness and substance abuse. Through workshops, it eliminates AIDS stigma and promotes safe practices." },
+    { head: "Manshakti", src: im1, width: 600, height: 400, txt: "Manshakti is a mental health awareness and wellness campaign by Alcheringa, IIT Guwahati, aimed at supporting those struggling during the global pandemic. The campaign focused on empathizing with individuals suffering from mental health issues and appreciating healthcare workers battling COVID-19. Manshakti collected and sent messages of encouragement from the public to frontline doctors and staff, offering them support and motivation during this challenging time." },
+    { head: "Aikyam", src: im4, width: 600, height: 400, txt: "Alcheringa stands against the backdrop of communal disharmony plaguing India. Through AIKYAM, we aim to foster unity and peace. Expect thought-provoking panel discussions, soul-stirring performances, and impactful fundraisers. Join us in building a harmonious future." },
 ];
 
 const Carasouel = () => {

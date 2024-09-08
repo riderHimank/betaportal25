@@ -7,7 +7,7 @@ export default function Team() {
   return (
     <div className="whole-page">
       <div className="main-photo">
-        <img src="pics/Frame 6356232.png" alt="Group photo" />
+        <img src="pics/Frame 6356232.svg" alt="Group photo" />
       </div>
       <div className="page-container">
 

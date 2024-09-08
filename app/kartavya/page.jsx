@@ -1,8 +1,8 @@
 import React from 'react';
 import "./topSection.css";
 import Image from 'next/image';
-import backImg from "../../public/hero.png";
-import backImgmobile from "../../public/hero-mobile.png";
+import backImg from "../../public/kartavya_hero.png";
+import backImgmobile from "../../public/kartavya_hero_mobile.png";
 import Carasouel from './carousel';
 
 const topSection = ({ title = "KARTAVYA", txt = "Alcheringa hosts several campaigns under Kartavya for cultural development and the betterment of society. These campaigns are conducted round the year to serve the mankind." }) => {

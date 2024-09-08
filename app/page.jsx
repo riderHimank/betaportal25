@@ -1,8 +1,8 @@
 "use client"
 
 import Image from "next/image";
-import hero from "../public/hero.png";
-import heromobile from "../public/hero-mobile.png";
+import hero from "../public/hero_2.png";
+import heromobile from "../public/hero_mobile.png";
 import SlotCounter from "react-slot-counter";
 import { useEffect, useState } from "react";
 import "./landing.css";
